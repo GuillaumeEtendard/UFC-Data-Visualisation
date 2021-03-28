@@ -1,0 +1,137 @@
+@font-face {
+    font-family: "Sternbach";
+    src: url("../fonts/sternbach/Sternbach.otf");
+}
+
+@font-face {
+    font-family: "Sternbach";
+    src: url("../fonts/sternbach/SternbachBold.otf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Sternbach";
+    src: url("../fonts/sternbach/SternbachItalic.otf");
+    font-style: italic;
+}
+
+
+* {
+    font-family: Sternbach, sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.dark {
+    background-color: #111111;
+    color: #fff;
+}
+
+
+.title {
+    font-style: italic;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.tab_style {
+    border-bottom: 1px solid #d6d6d6;
+    background: #000;
+    padding: 10px;
+    color: white;
+    font-size: 25px;
+}
+
+.tab_selected_style {
+    border-top: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6;
+    background-color: #d20909;
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.graph_style {
+    box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
+    border: 1px solid #edf2f9;
+    border-radius: .5rem;
+    padding: .5rem;
+    background: #fff;
+}
+
+.graph_dark, .dark .graph_style {
+    box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
+    border: 1px solid #111111;
+    border-radius: .5rem;
+    padding: .5rem;
+    background: #111111;
+}
+
+.Select-control {
+    background-color: rgb(25, 25, 25) !important;
+    color: #ffffff;
+}
+
+.Select-menu-outer {
+    background-color: rgb(25, 25, 25);
+    color: #ffffff;
+}
+
+.Select--single > .Select-control .Select-value, .Select-placeholder {
+    background: #ffffff;
+}
+
+#fighters-dropdown .VirtualizedSelectFocusedOption {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.row {
+    display: flex;
+    padding: 30px 0;
+}
+
+.img {
+    max-width: 100%;
+    height: auto;
+}
+
+.col-4 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.col-6 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.col-8 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .col-4 {
+        width: 33.33333%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-8 {
+        width: 66.66667%;
+    }
+}
+
+.col-12 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.graph_container {
+    padding: 0 1rem;
+}
